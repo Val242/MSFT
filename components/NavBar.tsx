@@ -6,17 +6,17 @@ import Button from './Button'
 export default function NavBar() {
   return (
     <div>
-        <nav className='grid grid-cols-[1fr_3fr_1fr] mt-2 mx-4'>
-            <Image src={MSFT} alt={'Logo'} className='w-30 h-7'/>
+        <nav className='grid grid-cols-[1fr_3fr_1fr] mt-2 mx-15'>
+            <Image src={MSFT} alt={'Logo'} className='w-30 h-7 place-items-center'/>
            
-         <div className='flex gap-2 mx-auto'>
+         <div className='flex gap-2 mx-auto place-items-center'>
               <div>Healthcare</div>
               <div>Medicines & Health Devices </div>
               <div> Services</div>
               <div>About</div>
          </div>
             <div className='flex gap-2'>
-              <p>Call 671369673 or </p>  
+              <p className='place-items-center'>Call 671369673 </p>  
                 <Button> Consult Online</Button>
             </div>
 
