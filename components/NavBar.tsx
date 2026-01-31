@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import MSFT from "../images/MSFT Pro.png"
 import Button from './Button'
+import "./index.css"
 
 export default function NavBar() {
   return (
@@ -9,8 +10,8 @@ export default function NavBar() {
         <nav className='grid grid-cols-[1fr_3fr_1fr] mt-2 mx-15'>
             <Image src={MSFT} alt={'Logo'} className='w-30 h-7 place-items-center'/>
            
-         <div className='flex gap-2 mx-auto place-items-center'>
-              <div>Healthcare</div>
+         <div className='flex gap-2 mx-auto items-center '>
+              <div >Healthcare</div>
               <div>Medicines & Health Devices </div>
               <div> Services</div>
               <div>About</div>

@@ -1,3 +1,4 @@
+import Doctors from '@/components/Doctors'
 import Hero from '@/components/Hero'
 import NavBar from '@/components/NavBar'
 import React from 'react'
@@ -8,6 +9,7 @@ function page() {
       
       <NavBar />
       <Hero />
+      <Doctors />
 
     </div>
   )

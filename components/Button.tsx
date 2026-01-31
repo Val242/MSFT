@@ -21,14 +21,14 @@ export default function Button({
       navigation: "bg-[#10217D] text-white border text-sm rounded-2xl",
       cta1: "bg-[#1BA9B5] text-white ",
       cta2: "border border-gray-400",
-      book: "bg-black text-white rounded-full"
+      book: "border border-[#10217D] text-[#10217D]"
 
   }
 
   const sizeStyles: Record<Size,string> = {
       sm: "h-8 px-3 text-sm",
       md: "h-11 px-4 text-base  w-41 h-11",
-      lg: "h-14 px-6 text-lg  w-56 h-5 rounded-[10px] ",
+      lg: "h-14 px-6 text-sm  w-56 h-5 rounded-[5px] ",
       icon: "h-10 w-10 flex items-center justify-center"
  }
   
