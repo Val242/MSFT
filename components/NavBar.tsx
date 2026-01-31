@@ -17,7 +17,7 @@ export default function NavBar() {
          </div>
             <div className='flex gap-2'>
               <p className='place-items-center'>Call 671369673 </p>  
-                <Button variant='navigation' size='md' className='bg-[#10217D] text-white rounded-2xl w-41 h-11'> Consult Online</Button>
+                <Button variant='navigation' size='md' className='bg-[#10217D] text-white '> Consult Online</Button>
             </div>
 
         </nav>
