@@ -23,6 +23,7 @@ export default function Doctors() {
                 <DoctorCard  image={naresh} name='Dr Naresh Terhan' description='Cardiac Surgeon' location='Gurgaon India'/>
                 <DoctorCard  image={vinad} name='Dr Vinad Raina' description='Medical Oncologist,' location='Gurgaon India'/>
         </div>
+        <p className='text-[#1BA9B5]'>View all</p>
     </div>
   )
 }
