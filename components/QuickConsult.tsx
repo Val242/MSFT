@@ -69,7 +69,7 @@ export default function QuickConsult() {
                <span className='text-[#10217D]'>For</span>
         </h1>
         <div className='flex flex-col  gap-4 '>
-            <div className='flex gap-2'>
+            <div className='flex gap-4'>
                     {
                       healthCardsOne.map((card, index)=>(
                         <HealthCard image={card.image} text={card.text} key={index} />
@@ -77,7 +77,7 @@ export default function QuickConsult() {
                     }
 
             </div>
-            <div className='flex gap-2'>
+            <div className='flex gap-4'>
                      {
                       healthCardsTwo.map((card, index)=>(
                         <HealthCard image={card.image} text={card.text} key={index} />
