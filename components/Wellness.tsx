@@ -21,7 +21,7 @@ export default function Wellness({image, name}: WellnessProps) {
                  className='w-full h-full  rounded-sm'
            ></Image>
 
-           <p className='text-center text-[#527C88]'>{name}</p>
+           <p className='text-center text-[#527C88] font-bold'>{name}</p>
     </div>
   )
 }

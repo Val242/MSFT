@@ -87,6 +87,7 @@ export default function QuickConsult() {
             </div>
 
         </div>
+         <p className='text-[#1BA9B5] my-4'>View all</p>
        
     </div>
   )
