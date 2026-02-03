@@ -9,6 +9,58 @@ import prescribe from "../images/icons/prescribe.png"
 
 
 export default function QuickConsult() {
+  const healthCardsOne =[
+      {
+          image: heart,
+          text: 'Heart'
+      },
+      {
+          image: asthma,
+          text: 'Lungs'
+      },
+      {
+          image: lungs,
+          text: 'Lungs'
+      },
+      {
+          image: oxygen,
+          text: 'Oxygen'
+      },
+      {
+          image: diabetics,
+          text: 'Diabetics'
+      },
+      {
+          image: prescribe,
+          text: 'Prescribe'
+      }
+  ]
+   const healthCardsTwo =[
+      {
+          image: oxygen,
+          text: 'Oxygen'
+      },
+      {
+          image: prescribe,
+          text: 'Prescribe'
+      },
+      {
+          image: diabetics,
+          text: 'Diabetics'
+      },
+      {
+          image: asthma,
+          text: 'Asthma'
+      },
+      {
+          image: lungs,
+          text: 'lungs'
+      },
+      {
+          image: heart,
+          text: 'Heart'
+      }
+  ]
   return (
     <div className='mt-8 mx-8'>
           <h1 className='text-3xl my-4 font-bold'>
@@ -18,21 +70,19 @@ export default function QuickConsult() {
         </h1>
         <div className='flex flex-col  gap-4 '>
             <div className='flex gap-2'>
-                    <HealthCard image={heart} text='Heart' />
-                    <HealthCard image={asthma} text='Asthma' />
-                    <HealthCard image={lungs} text='Lungs' />
-                    <HealthCard image={oxygen} text='Oxygen' />
-                    <HealthCard image={diabetics} text='Diabetics' />
-                    <HealthCard image={prescribe} text='Prscribe' />
+                    {
+                      healthCardsOne.map((card, index)=>(
+                        <HealthCard image={card.image} text={card.text} key={index} />
+                      ))
+                    }
 
             </div>
             <div className='flex gap-2'>
-                    <HealthCard image={oxygen} text='Oxygen' />
-                    <HealthCard image={heart} text='Heart' />
-                    <HealthCard image={diabetics} text='Diabetics' />
-                    <HealthCard image={asthma} text='Asthma' />
-                    <HealthCard image={lungs} text='Lungs' />
-                    <HealthCard image={heart} text='Heart' />
+                     {
+                      healthCardsTwo.map((card, index)=>(
+                        <HealthCard image={card.image} text={card.text} key={index} />
+                      ))
+                    }
             </div>
 
         </div>
