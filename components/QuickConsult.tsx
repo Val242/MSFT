@@ -6,6 +6,7 @@ import diabetics from "../images/icons/diabetics.png"
 import lungs from "../images/icons/lungs.png"
 import oxygen from "../images/icons/oxygen.png"
 import prescribe from "../images/icons/prescribe.png"
+import MediShop from './MediShop'
 
 
 export default function QuickConsult() {
@@ -62,7 +63,7 @@ export default function QuickConsult() {
       }
   ]
   return (
-    <div className='mt-8 mx-8'>
+    <div className='m-8 '>
           <h1 className='text-3xl my-4 font-bold'>
              <span className='text-[#1BA9B5]'>Quick</span>
               <span className='text-[#10217D]'>Consults </span>
@@ -86,6 +87,7 @@ export default function QuickConsult() {
             </div>
 
         </div>
+       
     </div>
   )
 }
