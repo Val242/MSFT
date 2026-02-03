@@ -4,6 +4,20 @@ import Button from "./Button"
 import Needs from "./Needs"
 
 export default function Hero() {
+  const needs = [
+    {
+      title: 'Call Doctor',
+      description: 'Quick consult via call'
+    },
+      {
+      title: 'Book Appointment',
+      description: 'Long established fact that'
+    },
+      {
+      title: 'Quick Health checkup',
+      description: 'Contrary to popular belief'
+    }
+  ]
   return (
     <div className="relative min-h-screen w-full">
     
@@ -19,9 +33,11 @@ export default function Hero() {
         <div className="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center gap-6">
        
           <div className="flex">
-            <Needs title="Call Doctor" description="Quick Consult via Call" />
-            <Needs title="Book Appointment" description="Long established fact that" />
-            <Needs title="Quick Health Checkup" description="Contrary to popular belief" />
+            {
+              needs.map((need,index)=>(
+                  <Needs title={need.title} description={need.description} key={index}/>
+              ))
+            }
           </div>
 
        
