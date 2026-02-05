@@ -1,5 +1,5 @@
 import React from 'react'
-import HealthCard from '../app/ui/HealthCard'
+import HealthCard from '../ui/HealthCard'
 import heart from "../images/icons/Heart.png"
 import asthma from "../images/icons/asthma.png"
 import diabetics from "../images/icons/diabetics.png"
