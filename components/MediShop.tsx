@@ -47,9 +47,9 @@ export default function MediShop() {
       /> */}
       
             <div className="flex items-center justify-center z-10 p-8 ">
+              <h1><span>Shop</span> <span> Medicines & Welness</span></h1>
               <div className="bg-white rounded-[5px] shadow-lg p-8 flex flex-col items-center gap-6 my-8 mx-4">
-             
-                <div className="flex gap-4">
+                   <div className="flex gap-4">
                   {
                     mediWell.map((well,index)=>(
                         <Wellness image={well.image} name={well.name} key={index}/>
@@ -57,8 +57,6 @@ export default function MediShop() {
                   }
                 </div>
       
-             
-               
               </div>
             </div>
       </div>
