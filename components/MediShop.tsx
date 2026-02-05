@@ -44,6 +44,7 @@ export default function MediShop() {
         
               <div className="bg-white rounded-[5px] shadow-lg p-8 flex flex-col items-center gap-6 my-8 mx-4">
                       <h1 className='font-bold text-3xl'><span className='text-[#1BA9B5]'>Shop</span> <span className='text-[#10217D]'> for Medicines & Welness</span></h1>
+                      <p className='text-center text-[#B7BCD8] text-sm'>Lorem Ipsum is simply dummy text of the printing and typesetting <br /> industry. Lorem Ipsum has been the industry's standard <br /> dumbfbfdbdbdbdbdbd</p>
                    <div className="flex gap-4">
                   {
                     mediWell.map((well,index)=>(
