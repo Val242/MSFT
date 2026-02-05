@@ -35,7 +35,10 @@ export default function Hero() {
           <div className="flex">
             {
               needs.map((need,index)=>(
-                  <Needs title={need.title} description={need.description} key={index}/>
+                  <Needs 
+                  title={need.title}
+                  description={need.description}
+                  key={index}/>
               ))
             }
           </div>

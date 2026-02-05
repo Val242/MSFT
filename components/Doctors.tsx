@@ -63,7 +63,13 @@ export default function Doctors() {
          
                 {
                   doctors.map((doctor, index)=>(
-                    <DoctorCard image={doctor.image} name={doctor.name} description= {doctor.description} city= {doctor.city} country={doctor.country}key={index} />
+                    <DoctorCard 
+                     image={doctor.image}
+                     name={doctor.name}
+                     description= {doctor.description} 
+                     city= {doctor.city}
+                     country={doctor.country}
+                     key={index} />
                   ))
                 }
         </div>
