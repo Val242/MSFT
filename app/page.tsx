@@ -1,4 +1,5 @@
 import Doctors from '@/components/Doctors'
+import HealthCarePrograms from '@/components/HealthCarePrograms'
 import Hero from '@/components/Hero'
 import MediShop from '@/components/MediShop'
 import NavBar from '@/components/NavBar'
@@ -14,6 +15,7 @@ function page() {
       <Doctors />
       <QuickConsult />
       <MediShop/>
+      <HealthCarePrograms/>
 
     </div>
   )
