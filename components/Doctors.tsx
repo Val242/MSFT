@@ -8,6 +8,44 @@ import naresh from "../images/Naresh.png"
 import vinad from "../images/Vinad.png"
 
 export default function Doctors() {
+  const doctors = [
+    {
+      image: mishra,
+      name: 'Dr Y K Mishra',
+      description: 'Cardiac Surgeon',
+      location: 'New Delhi, India',
+    },
+     {
+      image: sandip,
+      name:'Dr Sandeep Vaishya',
+      description: 'Nerurosurgeon',
+      location: 'Gurgaon, India',
+    },
+     {
+      image: rajeev,
+      name:'Dr Sandeep Vaishya',
+      description: 'Cardiac Surgeon',
+      location: 'New Delhi, India' ,
+    },
+     {
+      image: ajay,
+      name: 'Dr Ajay Koul',
+      description: 'Cardiac Surgeon' ,
+      location: 'New Delhi, India',
+    },
+     {
+      image: naresh,
+      name: 'Dr Naresh Terhan',
+      description: 'Cardiac Surgeon',
+      location: 'Gurgaon India',
+    },
+     {
+      image: vinad,
+      name: 'Dr Vinad Raina',
+      description: 'Medical Oncologist',
+      location: 'Gurgeon, India',
+    },
+  ]
   return (
     <div className='mt-8 mx-8'>
         <h1 className='text-3xl my-4 font-bold'>
@@ -16,12 +54,12 @@ export default function Doctors() {
                <span className='text-[#10217D]'>Near You</span>
         </h1>
         <div className='flex gap-3'>
-                <DoctorCard  image={mishra} name='Dr Y K Mishra' description='Cardiac Surgeon' location='New Delhi, India'/>
-                <DoctorCard  image={sandip} name='Dr Sandeep Vaishya' description='Neurosurgeon' location='Gurgaon, India'/>
-                <DoctorCard  image={rajeev} name='Dr Rajeev Verma' description='Cardiac Surgeon' location='New Delhi India'/>
-                <DoctorCard  image={ajay} name='Dr Ajay Koul' description='Cardiac Surgeon' location='New Delhi India'/>
-                <DoctorCard  image={naresh} name='Dr Naresh Terhan' description='Cardiac Surgeon' location='Gurgaon India'/>
-                <DoctorCard  image={vinad} name='Dr Vinad Raina' description='Medical Oncologist,' location='Gurgaon India'/>
+         
+                {
+                  doctors.map((doctor, index)=>(
+                    <DoctorCard image={doctor.image} name={doctor.name} description= {doctor.description} location= {doctor.location} key={index} />
+                  ))
+                }
         </div>
         <p className='text-[#1BA9B5] my-4'>View all</p>
     </div>
