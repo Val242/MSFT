@@ -1,7 +1,7 @@
 import Image from "next/image"
 import bgImage from "../images/bg.png"
-import Button from "./Button"
-import Needs from "./Needs"
+import Button from "../app/ui/Button"
+import Needs from "../app/ui/Needs"
 
 export default function Hero() {
   const needs = [

@@ -1,5 +1,5 @@
 import React from 'react'
-import DoctorCard from './DoctorCard'
+import DoctorCard from '../app/ui/DoctorCard'
 import mishra from "../images/Mishra.png"
 import sandip from "../images/Sandeep.png"
 import rajeev from "../images/Rajeev.png"
