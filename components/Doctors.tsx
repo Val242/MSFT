@@ -13,37 +13,43 @@ export default function Doctors() {
       image: mishra,
       name: 'Dr Y K Mishra',
       description: 'Cardiac Surgeon',
-      location: 'New Delhi, India',
+      city: 'New Delhi',
+      county: 'India'
     },
      {
       image: sandip,
       name:'Dr Sandeep Vaishya',
       description: 'Nerurosurgeon',
-      location: 'Gurgaon, India',
+      city: 'New Delhi',
+      county: 'India'
     },
      {
       image: rajeev,
       name:'Dr Sandeep Vaishya',
       description: 'Cardiac Surgeon',
-      location: 'New Delhi, India' ,
+      city: 'New Delhi',
+      county: 'India'
     },
      {
       image: ajay,
       name: 'Dr Ajay Koul',
       description: 'Cardiac Surgeon' ,
-      location: 'New Delhi, India',
+      city: 'New Delhi',
+      county: 'India'
     },
      {
       image: naresh,
       name: 'Dr Naresh Terhan',
       description: 'Cardiac Surgeon',
-      location: 'Gurgaon India',
+      city: 'New Delhi',
+      county: 'India'
     },
      {
       image: vinad,
       name: 'Dr Vinad Raina',
       description: 'Medical Oncologist',
-      location: 'Gurgeon, India',
+      city: 'New Delhi',
+      county: 'India'
     },
   ]
   return (
@@ -57,7 +63,7 @@ export default function Doctors() {
          
                 {
                   doctors.map((doctor, index)=>(
-                    <DoctorCard image={doctor.image} name={doctor.name} description= {doctor.description} location= {doctor.location} key={index} />
+                    <DoctorCard image={doctor.image} name={doctor.name} description= {doctor.description} city= {doctor.city} country={doctor.county}key={index} />
                   ))
                 }
         </div>
