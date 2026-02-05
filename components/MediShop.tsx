@@ -6,7 +6,7 @@ import nutritionalDrinks from "../images/nutritionalDrinks.png"
 import skinCare from "../images/skinCare.png"
 import wellness from "../images/wellness.png"
 import sexualWellness from "../images/sexualWellness.png"
-import Wellness from '../app/ui/Wellness'
+import Wellness from '../ui/Wellness'
 import shoppingCart from '../images/shopping-cart.png'
 import { ShoppingCart } from 'lucide-react';
 

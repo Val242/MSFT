@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import MSFT from "../images/MSFT Pro.png"
-import Button from '../app/ui/Button'
+import Button from '../ui/Button'
 import "./index.css"
 
 export default function NavBar() {
