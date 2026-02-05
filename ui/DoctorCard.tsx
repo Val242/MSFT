@@ -11,14 +11,16 @@ interface DoctorsProp{
   };
     name: string;
     description: string;
-    location: string
+    city?: string;
+    country?: string;
 }
 
 export default function DoctorCard({
     image,
     name,
     description,
-    location
+    city,
+    country
 }: DoctorsProp) {
   return (
     <div className='flex flex-col border border-gray-300 rounded-lg'>
@@ -30,7 +32,8 @@ export default function DoctorCard({
         ></Image>
         <p className='text-[#10217D]'>{name}</p>
         <p className='text-gray-400'>{description}</p>
-        <p className='text-gray-400'>{location}</p>
+        <p className='text-gray-400'>{city}, {country}</p>
+     
         <Button variant='book' size='lg' className=''>Consult now</Button>
 
     </div>
