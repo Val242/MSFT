@@ -93,7 +93,7 @@ export default function QuickConsult() {
             </div>
 
         </div>
-         <p className='text-[#1BA9B5] my-4'>View all</p>
+     <p className='text-[#1BA9B5] my-4 cursor-pointer hover:underline'>View all</p>
        
     </div>
   )
