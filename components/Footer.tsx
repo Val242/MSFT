@@ -2,9 +2,12 @@ import React from 'react'
 import Image from 'next/image'
 import MSFT from "../images/MSFT Pro.png"
 import FooterNavigations from '@/ui/FooterNavigations'
-import { Facebook } from 'lucide-react';
-import { Instagram } from 'lucide-react';
-import { Twitter } from 'lucide-react';
+// import { Facebook } from 'lucide-react';
+// import { Instagram } from 'lucide-react';
+// import { Twitter } from 'lucide-react';
+import { FaFacebook } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
 
 export default function Footer() {
     const footerNavs = [
@@ -57,9 +60,9 @@ export default function Footer() {
                 <nav>
                     <h2 className='text-2xl mb-2 text-[#1BA9B5] '>Social Media</h2>
                     <nav className='flex gap-4'>
-                    <Facebook />
-                    <Instagram />
-                    <Twitter/>
+                    <FaFacebook size={25} />
+                    <FaInstagram size={25}/>
+                    <FaTwitter size={25}/>
                     </nav>
                 </nav>
         </div>

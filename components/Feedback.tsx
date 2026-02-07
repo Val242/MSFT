@@ -4,7 +4,7 @@ import patient from '../images/patient.png'
 
 export default function Feedback() {
   return (
-    <div>
+    <div >
          <h1 className='font-bold text-3xl'> 
            <span className='text-[#10217D]'>Our </span> 
            <span className='text-[#1BA9B5]'>patients </span> 
@@ -12,7 +12,7 @@ export default function Feedback() {
         </h1>
     <div className='bg-[#ECEEF9]'>
        
-        <div className='grid grid-cols-2'>
+        <div className='grid grid-cols-2 pt-8'>
           <div className='rounded-lg'>
             <Image
            src={patient}
