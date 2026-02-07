@@ -1,5 +1,6 @@
 import Doctors from '@/components/Doctors'
 import Feedback from '@/components/Feedback'
+import Footer from '@/components/Footer'
 import HealthCarePrograms from '@/components/HealthCarePrograms'
 import Hero from '@/components/Hero'
 import MediShop from '@/components/MediShop'
@@ -18,7 +19,7 @@ function page() {
       <MediShop/>
       <HealthCarePrograms/>
       <Feedback/>
-
+      <Footer/>
     </div>
   )
 }
