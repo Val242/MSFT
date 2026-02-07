@@ -34,7 +34,7 @@ export default function Feedback() {
                 <p className='text-gray-400'>MSFT Pro Customer</p>
             </div>
 </div>
- <p className='text-[#1BA9B5] my-4 cursor-pointer hover:underline'>View all</p>
+ <p className='text-[#1BA9B5] my-4 cursor-pointer hover:underline ml-8'>View all</p>
 
 
     </div>
