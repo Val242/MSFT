@@ -29,7 +29,7 @@ export default function NavBar() {
         <div className='flex flex-col sm:flex-row gap-2 sm:gap-4 justify-center items-center'>
           {navBarText.map((text, index) => (
             <div 
-              className='hover:text-[#1BA9B5] text-center sm:text-left'
+              className='hover:text-[#1BA9B5] text-center sm:text-left hover:underline'
               key={index}
             >
               {text}
