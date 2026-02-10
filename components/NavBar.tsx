@@ -39,7 +39,7 @@ export default function NavBar() {
         
         
         <div className='flex flex-col sm:flex-row gap-2 justify-end items-center text-center sm:text-right'>
-          <p className='text-sm'>Call 671369673</p>
+          <p className='text-sm'>Call 671369673 or </p>
           <Button variant='navigation' size='md'>Consult Online</Button>
         </div>
 
