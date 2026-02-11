@@ -126,7 +126,7 @@ Deployment with custom domain
 👨‍💻 Author
 
 Ebong Valentine
-Frontend Developer
+FullStack Developer
 Cameroon
 
 Passionate about building clean, scalable, and production-ready user interfaces.
