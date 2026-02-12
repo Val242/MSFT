@@ -1,4 +1,4 @@
-🏥 MSFT Pro – Healthcare Landing Page
+🏥 MSFT Pro – Healthcare Landing Page.
 
 A modern healthcare landing page built using Next.js, React, and Tailwind CSS.
 
