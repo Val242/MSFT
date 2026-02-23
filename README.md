@@ -2,7 +2,7 @@
 
 A modern healthcare landing page built using Next.js, React, and Tailwind CSS.
 
-This project focuses on clean UI implementation, reusable components, structured layout, and interactive user experience.
+This project focuses on clean UI .implementation, reusable components, structured layout, and interactive user experience.
 
 📖 About The Project
 
