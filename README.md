@@ -4,7 +4,7 @@ A modern healthcare landing page built using Next.js, React, and Tailwind CSS.
 
 This project focuses on clean UI .implementation, reusable components, structured layout, and interactive user experience.
 
-📖 About The Project
+📖 About The Project.
 
 MSFT Pro is a healthcare-focused landing page designed to provide a professional and modern interface for medical services.
 
